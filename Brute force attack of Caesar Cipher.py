@@ -1,6 +1,6 @@
 def bruteForceCaesarCipher(ciphertext):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    for shift in range(1, 26):  # There are 25 possible shifts
+    for shift in range(1, 26):
         decryptedText = ""
         for character in ciphertext:
             if character in alphabet:
